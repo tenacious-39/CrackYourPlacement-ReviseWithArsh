@@ -24,7 +24,7 @@ public:
         while(j < n){
             if(nums[j] != nums[i]){
                 i++;
-                swap(nums[j], nums[i]);
+                nums[i] = nums[j];
             }
             j++;
         }
